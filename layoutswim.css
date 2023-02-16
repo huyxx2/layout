@@ -1,0 +1,217 @@
+*{margin: 0; padding:0;}
+body{
+    width: 100%;
+    height: 100%;
+}
+/* :root{
+    font-family:segoe ui ;
+} */
+
+.biglayout{
+    font-family:'Segoe UI' ;
+    width:80%;
+    height: 100%;
+    margin: auto;
+}
+
+/* menu */
+.biglayout .banner {
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+.biglayout .banner .logo{
+    height: 40px;
+    width: 30%;
+}
+.biglayout .banner  .logo img.img_logo{
+    width: 150px;
+    height: 40px;
+}
+
+.biglayout .banner .menu{
+    width: 100%;
+    height: 40px;
+    font-size: 17px;
+}
+.biglayout .banner .menu ul.m{
+    list-style: none;   
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 6px; */
+    text-align: center;
+    
+}
+.biglayout .banner .menu ul.m li{
+    display: inline-block;
+    padding: 9px 53px;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.biglayout .banner .menu ul.m li:hover{
+    background-color: rgb(63, 63, 224);
+}
+
+.biglayout .banner .menu ul.m li#m1{}
+.biglayout .banner .menu ul.m li#m2{}
+.biglayout .banner .menu ul.m li#m3{}
+.biglayout .banner .menu ul.m li#m4{}
+.biglayout .banner .menu ul.m li#m5{}
+
+
+    /* chap1 content */
+.biglayout .content{
+    width: 100%;
+    height: 660px;
+    /* position: relative; */
+}
+.biglayout .content {
+    
+    /* margin-top: 27px; */
+}
+.biglayout .content img{
+    width: 100%;
+    height: 400px;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+}
+
+.biglayout .content .block {
+font-family: segoe ui;
+    position: absolute;
+    width: 79%;
+    display: flex;
+    left: 143px;
+    top: 352px;
+    
+}
+        /* khoi */
+.biglayout .content .block .b{
+    font-family: segoe ui;
+    width: 225px;
+    height: 300px;
+    margin: auto;
+}
+.biglayout .content .block .b h2.td{
+    font-size: 28px;
+    margin-left: 30px;
+    padding-top: 19px;
+    padding-bottom: 16px;
+    width: 132px;
+    height: auto;
+}
+.biglayout .content .block .b p.p{
+    font-size: 15px;
+    margin-left: 30px;
+    width: 134px;
+    height:140px;
+}
+
+.biglayout .content .block #b1{background-color: orange;}
+.biglayout .content .block #b2{background-color: palevioletred;}
+.biglayout .content .block #b3{background-color: blueviolet;}
+.biglayout .content .block #b4{background-color: blue;}
+    /* ********end chap1******* */
+
+    /* chap 2 */
+.chap2{
+    width: 100%;
+    height: 700px;
+}
+.img{
+    width:50%;
+    height: 300px;
+}
+.information{
+    height:300px ;
+    background-color: antiquewhite;
+    text-align: center;
+}
+ /* efgeshgrg */
+.chap2 .phantren{
+    width: 100%;
+    height: 350px;
+    display:flex;
+}
+.chap2 .phantren .img{
+    width:50%;
+    height: 300px;
+}
+.chap2 .phantren .information{
+    width: 50%;
+}
+.chap2 .phantren .information .khungtren{
+    width: 570px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.chap2 .phantren .information .khungtren p.tieude{
+    font-size: 20px;
+    font-family: segoe ui light;
+    margin-bottom: 20px;
+}
+.chap2 .phantren .information .khungtren p.inf{
+
+
+    width: 600px;
+}
+
+.chap2 .phanduoi{
+    width: 100%;
+    height: 350px;
+    display: flex;
+}
+.chap2 .phanduoi .img{
+    /* width: 50%;
+    width:400px;
+    height:300px; */
+}
+.chap2 .phanduoi .information{
+    width: 50%;
+}
+
+    /* *****end chap2***** */
+
+    /* chap3 */
+.chap3{
+    width: 100%;
+    height: 700px;
+
+}
+.chap3 .phantren1{
+    width: 100%;
+    height: 50%;
+}
+.chap3 .phantren1 .img1{
+    width: 100%;
+    height: 300px;
+}
+.chap3 .phantren1 .information1{
+    width: 100%;
+    height:300px;
+}
+.chap3 .phantren1 .information1 .khungtren1{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(137, 43, 226, 0.816);
+    position: absolute;
+    left: 10%;
+    top: 1400px;
+}
+.chap3 .phantren1 .information1 .tieude1{ }
+.chap3 .phantren1 .information1 .inf1{ }
+.chap3 .phantren1 .information1 .button1{ }
+
+   /* duoi */
+.chap3 .phanduoi1{
+    width: 100%;
+    height: 50%;
+}
+.chap3 .phanduoi1 .left1 {}
+.chap3 .phanduoi1 .left1 .hleft1{}
+.chap3 .phanduoi1 .left1 .ulleft1{}
+.chap3 .phanduoi1 .img_right1 {}
+
+    /* ****end chap3***** */
